@@ -33,7 +33,6 @@ public class Article {
     }
 
 
-
     @Override
     public String toString() {
         return "Article{" +
@@ -83,8 +82,9 @@ public class Article {
     public void setBody(String body) {
         this.body = body;
     }
+
     public static String getMemberId() {
-       return getMemberId();
+        return getMemberId();
     }
 
 }
