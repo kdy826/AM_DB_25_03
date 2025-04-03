@@ -8,13 +8,15 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Scanner;
-public class App {
-   private Scanner sc;
 
-   public App(){
-       Container.init();
-       this.sc = Container.sc;
-   }
+public class App {
+    private Scanner sc;
+
+    public App() {
+        Container.init();
+        this.sc = Container.sc;
+    }
+
     public void run() {
         System.out.println("==프로그램 시작==");
         Scanner sc = new Scanner(System.in);
@@ -93,4 +95,4 @@ public class App {
 
         return 0;
     }
-}}
+}
