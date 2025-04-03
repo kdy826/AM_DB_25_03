@@ -1,6 +1,6 @@
 package org.example.dao;
 
-import org.example.Article;
+import org.example.dto.Article;
 import org.example.util.DBUtil;
 import org.example.util.SecSql;
 
@@ -16,7 +16,7 @@ public class ArticleDao {
         this.conn = conn;
     }
 
-    public int doWrite(String title, String body) {
+    public int doWrite(int memberId, String title, String body) {
         SecSql sql = new SecSql();
 
         sql.append("INSERT INTO article");

@@ -1,5 +1,7 @@
 package org.example;
 
+import org.example.dto.Article;
+
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
