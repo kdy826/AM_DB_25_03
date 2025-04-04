@@ -10,6 +10,7 @@ import java.sql.SQLException;
 import java.util.Scanner;
 
 public class App {
+
     private Scanner sc;
 
     public App() {
@@ -78,6 +79,9 @@ public class App {
             memberController.login();
         } else if (cmd.equals("member join")) {
             memberController.doJoin();
+
+        } else if (cmd.equals("member srach")){
+
         } else if (cmd.equals("article write")) {
             articleController.doWrite();
         } else if (cmd.equals("article list")) {
